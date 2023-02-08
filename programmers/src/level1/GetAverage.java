@@ -8,22 +8,20 @@ public class GetAverage {
 	}
 	
 	public static double solution(int[] arr) {
-		if(arr == null || arr.length == 0){
-        	return 0;
-      	}
-		
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-        }
+		if(arr == null || arr.length == 0) return 0;
+     		
+        	int sum = 0;
+        	for (int i = 0; i < arr.length; i++) {
+           		sum += arr[i];
+        	}
         
-        /*
-        for(int n : arr) {
-            sum += n;
-        }
-        */
+        	/*
+        	for(int n : arr) {
+            		sum += n;
+        	}
+        	*/
         
-        return (double) sum / arr.length;
-    }
+        	return (double) sum / arr.length;
+    	}
 	
 }

@@ -2,7 +2,7 @@ package level1;
 
 import java.util.Scanner;
 
-public class sumDivisor {
+public class SumDivisor {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

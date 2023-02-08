@@ -2,7 +2,7 @@ package level1;
 
 import java.util.*;
 
-public class evenOrOdd {
+public class EvenOrOdd {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

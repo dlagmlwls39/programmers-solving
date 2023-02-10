@@ -16,10 +16,10 @@ public class DivisibleArray {
 		ArrayList array = new ArrayList();
 		
 		for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % divisor == 0) {
-            	array.add(arr[i]);
-            }
-        }
+            		if (arr[i] % divisor == 0) {
+            			array.add(arr[i]);
+            		}
+        	}
 		
 		Collections.sort(array);
 		

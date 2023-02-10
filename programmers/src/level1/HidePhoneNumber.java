@@ -13,13 +13,13 @@ public class HidePhoneNumber {
 	}
 	
 	public static String solution(String phone_number) {
-        String answer = "";
-        int index = phone_number.length() - 4;
-        for (int i = 0; i < index; i++) {
-            answer += "*";
-        }
-        answer += phone_number.substring(index);
-        return answer;
-    }
+        	String answer = "";
+        	int index = phone_number.length() - 4;
+        	for (int i = 0; i < index; i++) {
+            		answer += "*";
+        	}
+        	answer += phone_number.substring(index);
+        	return answer;
+    	}
 	
 }

@@ -13,24 +13,24 @@ public class RemoveMin {
 	}
 	
 	public static int[] solution(int[] arr) {
-        int[] answer = { -1 };
-        if (arr.length == 1) return answer;
-        else answer = new int[arr.length - 1];
+        	int[] answer = { -1 };
+        	if (arr.length == 1) return answer;
+        	else answer = new int[arr.length - 1];
         
-        // 최솟값의 인덱스 구하기
-        int minIdx = 0;
-        for (int i = 1; i < arr.length; i++) {
-        	if (arr[minIdx] > arr[i]) minIdx = i;
-        }
+        	// 최솟값의 인덱스 구하기
+        	int minIdx = 0;
+        	for (int i = 1; i < arr.length; i++) {
+        		if (arr[minIdx] > arr[i]) minIdx = i;
+       		}
         
-        int count = 0;
-        for (int i = 0; i < arr.length; i++) {
-        	if (minIdx != i) {
-        		answer[count++] = arr[i];
+        	int count = 0;
+        	for (int i = 0; i < arr.length; i++) {
+        		if (minIdx != i) {
+        			answer[count++] = arr[i];
+        		}
         	}
-        }
 
-        return answer;
-    }
+        	return answer;
+    	}
 	
 }

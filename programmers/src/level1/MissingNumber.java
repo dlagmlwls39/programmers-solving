@@ -2,12 +2,9 @@
 
 package level1;
 
-import java.util.*;
-
 public class MissingNumber {
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
 		int[] numbers = {1, 2, 3, 4, 6, 7, 8, 0 };
 		System.out.println(solution(numbers));
 	}

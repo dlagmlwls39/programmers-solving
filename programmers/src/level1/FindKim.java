@@ -2,12 +2,9 @@
 
 package level1;
 
-import java.util.*;
-
 public class FindKim {
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
 		String[] seoul = {"Jane", "Kim"};
 		System.out.println(solution(seoul));
 	}

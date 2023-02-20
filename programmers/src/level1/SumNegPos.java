@@ -2,12 +2,9 @@
 
 package level1;
 
-import java.util.*;
-
 public class SumNegPos {
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
 		int[] absolutes = { 4, 7, 12 };
 		boolean[] signs = { true, false, true };
 		System.out.println(solution(absolutes, signs));

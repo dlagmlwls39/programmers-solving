@@ -7,7 +7,6 @@ import java.util.*;
 public class DivisibleArray {
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
 		int[] arr = { 5, 9, 7, 10 };
 		System.out.println(Arrays.toString(solution(arr, 5)));
 	}

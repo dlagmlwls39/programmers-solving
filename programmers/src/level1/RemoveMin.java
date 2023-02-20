@@ -7,7 +7,6 @@ import java.util.*;
 public class RemoveMin {
 	
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
 		int[] arr = { 4, 3, 2, 1 };
 		System.out.println(Arrays.toString(solution(arr)));
 	}

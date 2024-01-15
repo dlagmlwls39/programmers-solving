@@ -4,7 +4,7 @@ package level1;
 
 import java.util.*;
 
-public class strangeString {
+public class paintOver {
 	public static void main(String[] args) {
 		int n = 8;
 		int m = 4;

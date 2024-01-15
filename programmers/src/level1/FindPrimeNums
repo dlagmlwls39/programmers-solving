@@ -4,7 +4,7 @@ package level1;
 
 import java.util.*;
 
-public class findPrimeNums {
+public class FindPrimeNums {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner();
 		int n = scanner.nextInt();

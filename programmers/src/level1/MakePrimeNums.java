@@ -6,7 +6,7 @@ import java.util.*;
 
 public class MakePrimeNums {
 	public static void main(String[] args) {
-		int nums[] = {1, 2, 7, 6, 4};
+		int[] nums = {1, 2, 7, 6, 4};
 		System.out.println(solution(nums));
 	}
 	
